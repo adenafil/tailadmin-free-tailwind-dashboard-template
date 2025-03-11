@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack serve --open --config webpack.config.js",
     "build": "webpack --config webpack.config.js",
-    "sort": "npx prettier --write src"
+    "sort": "npx prettier --write src",
+    "dev": "npx tailwindcss -i ./src/css/style.css -o ./src/css/output.css --watch"
   },
   "keywords": [],
   "author": {
